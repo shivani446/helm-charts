@@ -1,7 +1,7 @@
 apiVersion: operator.cluster.x-k8s.io/v1alpha2
 kind: BootstrapProvider
 metadata:
-  name: talos
+  name: bootstrap-talos
 spec:
   version: v0.6.7
   {{- if .Values.configSecret.name }}
@@ -13,7 +13,7 @@ spec:
 apiVersion: operator.cluster.x-k8s.io/v1alpha2
 kind: ControlPlaneProvider
 metadata:
-  name: talos
+  name: control-plane-talos
 spec:
   version: v0.5.8
   {{- if .Values.configSecret.name }}
