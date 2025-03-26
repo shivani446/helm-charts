@@ -6,12 +6,12 @@ entries:
       cluster.x-k8s.io/v1beta1: v1beta1
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-03-26T11:16:40.218741122+05:30"
+    created: "2025-03-26T11:20:55.127793016+05:30"
     description: A Helm chart for talos
     digest: 8dc6cd6f6fd5cef4eeeb5612c7dfa9d8fb56a2440c3d7fae2fc484b99601c66d
     name: talos
     type: application
     urls:
-    - https://shivani446.github.io/helm-charts/talos-0.1.0.tgz
+    - https://shivani446.github.io/helm-charts/charts/talos-0.1.0.tgz
     version: 0.1.0
-generated: "2025-03-26T11:16:40.21821786+05:30"
+generated: "2025-03-26T11:20:55.126937868+05:30"
