@@ -6,7 +6,7 @@ entries:
       cluster.x-k8s.io/v1beta1: v1beta1
     apiVersion: v2
     appVersion: 1.4.2
-    created: "2025-03-26T12:03:23.036485011+05:30"
+    created: "2025-04-01T13:43:49.187805006+05:30"
     description: A Helm chart for talos
     digest: 4a05a854d63861eede4a3622c1876dafc2734f3142887029aa7ca3a18229bd75
     name: talos
@@ -19,7 +19,7 @@ entries:
       cluster.x-k8s.io/v1beta1: v1beta1
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-03-26T12:03:23.035911047+05:30"
+    created: "2025-04-01T13:43:49.187483939+05:30"
     description: A Helm chart for talos
     digest: 8dc6cd6f6fd5cef4eeeb5612c7dfa9d8fb56a2440c3d7fae2fc484b99601c66d
     name: talos
@@ -27,4 +27,4 @@ entries:
     urls:
     - https://shivani446.github.io/helm-charts/charts/talos-0.1.0.tgz
     version: 0.1.0
-generated: "2025-03-26T12:03:23.035443871+05:30"
+generated: "2025-04-01T13:43:49.186982677+05:30"
