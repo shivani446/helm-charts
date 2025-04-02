@@ -2,27 +2,27 @@ apiVersion: v1
 entries:
   proxmox:
   - annotations:
-      cluster.x-k8s.io/bootstrap-talos: v1alpha1!,v1alpha2
-      cluster.x-k8s.io/control-plane-talos: v1alpha3
-      cluster.x-k8s.io/infrastructure-proxmox: v1alpha1
+      cluster.x-k8s.io/bootstrap-talos: v1alpha3
+      cluster.x-k8s.io/control-plane-talos: v1beta1
+      cluster.x-k8s.io/infrastructure-proxmox: v1beta1
       cluster.x-k8s.io/provider: infrastructure-proxmox, control-plane-talos, bootstrap-talos
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-04-02T12:14:47.078765329+05:30"
+    created: "2025-04-02T12:21:32.057537259+05:30"
     description: A Helm chart for proxmox
-    digest: f12ab56d34d18c12ad2958dd515d9b25172574da9220d691d8f063e43ff6b77d
+    digest: f00e19d004b8a1076a626f1c087a5baac5bdc140a2be457e0fc07287e6b62f49
     name: proxmox
     type: application
     urls:
     - https://shivani446.github.io/helm-charts/charts/proxmox.tgz
-    version: 0.1.4
+    version: 0.1.5
   talos:
   - annotations:
       cluster.x-k8s.io/provider: bootstrap-talos, control-plane-talos
       cluster.x-k8s.io/v1beta1: v1beta1
     apiVersion: v2
     appVersion: 1.4.2
-    created: "2025-04-02T12:14:47.079292079+05:30"
+    created: "2025-04-02T12:21:32.058254469+05:30"
     description: A Helm chart for talos
     digest: 4a05a854d63861eede4a3622c1876dafc2734f3142887029aa7ca3a18229bd75
     name: talos
@@ -35,7 +35,7 @@ entries:
       cluster.x-k8s.io/v1beta1: v1beta1
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-04-02T12:14:47.079015853+05:30"
+    created: "2025-04-02T12:21:32.057888775+05:30"
     description: A Helm chart for talos
     digest: 8dc6cd6f6fd5cef4eeeb5612c7dfa9d8fb56a2440c3d7fae2fc484b99601c66d
     name: talos
@@ -43,4 +43,4 @@ entries:
     urls:
     - https://shivani446.github.io/helm-charts/charts/talos-0.1.0.tgz
     version: 0.1.0
-generated: "2025-04-02T12:14:47.077943356+05:30"
+generated: "2025-04-02T12:21:32.056054718+05:30"
