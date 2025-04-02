@@ -1,5 +1,23 @@
 apiVersion: v1
 entries:
+  cluster-api-provider-proxmox:
+  - annotations:
+      cluster.x-k8s.io/provider: infrastructure-proxmox
+      cluster.x-k8s.io/v1alpha3: v1alpha3
+      cluster.x-k8s.io/v1alpha4: v1alpha4
+      cluster.x-k8s.io/v1beta1: v1beta1_v1beta2
+    apiVersion: v2
+    appVersion: 0.5.2
+    created: "2025-04-02T19:42:47.683260593+05:30"
+    description: A Helm chart for Cluster API provider proxmox
+    digest: 42ec19adde82fc1d02cdcba87599d47f84f57dba7c1bedadbf8c39a7082bb1b7
+    maintainers:
+    - name: improwised
+    name: cluster-api-provider-proxmox
+    type: application
+    urls:
+    - https://shivani446.github.io/helm-charts/charts/cluster-api-provider-proxmox.tgz
+    version: 0.1.1
   proxmox:
   - annotations:
       cluster.x-k8s.io/bootstrap-talos: v1alpha3
@@ -8,7 +26,7 @@ entries:
       cluster.x-k8s.io/provider: infrastructure-proxmox, control-plane-talos, bootstrap-talos
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-04-02T12:21:32.057537259+05:30"
+    created: "2025-04-02T19:42:47.684412084+05:30"
     description: A Helm chart for proxmox
     digest: f00e19d004b8a1076a626f1c087a5baac5bdc140a2be457e0fc07287e6b62f49
     name: proxmox
@@ -22,7 +40,7 @@ entries:
       cluster.x-k8s.io/v1beta1: v1beta1
     apiVersion: v2
     appVersion: 1.4.2
-    created: "2025-04-02T12:21:32.058254469+05:30"
+    created: "2025-04-02T19:42:47.68506504+05:30"
     description: A Helm chart for talos
     digest: 4a05a854d63861eede4a3622c1876dafc2734f3142887029aa7ca3a18229bd75
     name: talos
@@ -35,7 +53,7 @@ entries:
       cluster.x-k8s.io/v1beta1: v1beta1
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-04-02T12:21:32.057888775+05:30"
+    created: "2025-04-02T19:42:47.684821151+05:30"
     description: A Helm chart for talos
     digest: 8dc6cd6f6fd5cef4eeeb5612c7dfa9d8fb56a2440c3d7fae2fc484b99601c66d
     name: talos
@@ -43,4 +61,4 @@ entries:
     urls:
     - https://shivani446.github.io/helm-charts/charts/talos-0.1.0.tgz
     version: 0.1.0
-generated: "2025-04-02T12:21:32.056054718+05:30"
+generated: "2025-04-02T19:42:47.682718616+05:30"
