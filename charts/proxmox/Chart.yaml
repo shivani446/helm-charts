@@ -30,6 +30,6 @@ annotations:
   # cluster.x-k8s.io/bootstrap-talos: v1beta1
   # cluster.x-k8s.io/control-plane-talos: v1beta1
   # cluster.x-k8s.io/infrastructure-proxmox: v1beta1
-  cluster.x-k8s.io/bootstrap-talos: v1alpha3
+  cluster.x-k8s.io/bootstrap-talos: v1beta1
   cluster.x-k8s.io/control-plane-talos: v1beta1
   cluster.x-k8s.io/infrastructure-proxmox: v1beta1
