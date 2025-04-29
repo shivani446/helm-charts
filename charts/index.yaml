@@ -8,7 +8,7 @@ entries:
       cluster.x-k8s.io/v1beta1: v1beta1_v1beta2
     apiVersion: v2
     appVersion: 0.5.2
-    created: "2025-04-29T14:00:47.922051476+05:30"
+    created: "2025-04-29T14:06:54.70576896+05:30"
     description: A Helm chart for Cluster API provider proxmox
     digest: 42ec19adde82fc1d02cdcba87599d47f84f57dba7c1bedadbf8c39a7082bb1b7
     maintainers:
@@ -20,25 +20,25 @@ entries:
     version: 0.1.1
   proxmox:
   - annotations:
-      cluster.x-k8s.io/infrastructure-proxmox: v1beta1
-      cluster.x-k8s.io/provider: infrastructure-proxmox
+      cluster.x-k8s.io/infrastructure-aws: v1beta1
+      cluster.x-k8s.io/provider: infrastructure-aws
     apiVersion: v2
-    appVersion: 1.0.2
-    created: "2025-04-29T14:00:47.924131584+05:30"
+    appVersion: 1.0.3
+    created: "2025-04-29T14:06:54.708334195+05:30"
     description: A Helm chart for proxmox
-    digest: ff989d8012b8357b80cc1d2cf096d5e4ffdd7658cad365a0a018a774125f5fc2
+    digest: eafa0f6c5e399863d4b7a7f0a37a9485a202a352888241a9767417582afc895c
     name: proxmox
     type: application
     urls:
     - https://shivani446.github.io/helm-charts/charts/proxmox.tgz
-    version: 0.1.7
+    version: 0.1.8
   talos:
   - annotations:
       cluster.x-k8s.io/provider: infrastructure-proxmox,bootstrap-talos, control-plane-talos
       cluster.x-k8s.io/v1beta1: v1beta1
     apiVersion: v2
     appVersion: 1.4.2
-    created: "2025-04-29T14:00:47.922661058+05:30"
+    created: "2025-04-29T14:06:54.706061878+05:30"
     description: A Helm chart for talos
     digest: e22748110de9cfafdba77b92aa522fccd1cbced93c69bea149705fa2b368b12c
     name: talos
@@ -51,7 +51,7 @@ entries:
       cluster.x-k8s.io/v1beta1: v1beta1
     apiVersion: v2
     appVersion: 1.4.2
-    created: "2025-04-29T14:00:47.924786424+05:30"
+    created: "2025-04-29T14:06:54.709006147+05:30"
     description: A Helm chart for talos
     digest: 4a05a854d63861eede4a3622c1876dafc2734f3142887029aa7ca3a18229bd75
     name: talos
@@ -64,7 +64,7 @@ entries:
       cluster.x-k8s.io/v1beta1: v1beta1
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-04-29T14:00:47.924444337+05:30"
+    created: "2025-04-29T14:06:54.708714416+05:30"
     description: A Helm chart for talos
     digest: 8dc6cd6f6fd5cef4eeeb5612c7dfa9d8fb56a2440c3d7fae2fc484b99601c66d
     name: talos
@@ -72,4 +72,4 @@ entries:
     urls:
     - https://shivani446.github.io/helm-charts/charts/talos-0.1.0.tgz
     version: 0.1.0
-generated: "2025-04-29T14:00:47.921504682+05:30"
+generated: "2025-04-29T14:06:54.705080386+05:30"
