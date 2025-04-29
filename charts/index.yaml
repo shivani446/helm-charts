@@ -8,7 +8,7 @@ entries:
       cluster.x-k8s.io/v1beta1: v1beta1_v1beta2
     apiVersion: v2
     appVersion: 0.5.2
-    created: "2025-04-29T13:52:13.605984377+05:30"
+    created: "2025-04-29T13:55:41.556922403+05:30"
     description: A Helm chart for Cluster API provider proxmox
     digest: 42ec19adde82fc1d02cdcba87599d47f84f57dba7c1bedadbf8c39a7082bb1b7
     maintainers:
@@ -26,7 +26,7 @@ entries:
       cluster.x-k8s.io/provider: infrastructure-proxmox, control-plane-talos, bootstrap-talos
     apiVersion: v2
     appVersion: 1.0.1
-    created: "2025-04-29T13:52:13.608283517+05:30"
+    created: "2025-04-29T13:55:41.558310794+05:30"
     description: A Helm chart for proxmox
     digest: 53eecd4d97ca4d27d08a13dcc5c355492a7cf3ae60a6cba73170356ced8920b8
     name: proxmox
@@ -40,7 +40,7 @@ entries:
       cluster.x-k8s.io/v1beta1: v1beta1
     apiVersion: v2
     appVersion: 1.4.2
-    created: "2025-04-29T13:52:13.607172395+05:30"
+    created: "2025-04-29T13:55:41.557328325+05:30"
     description: A Helm chart for talos
     digest: e22748110de9cfafdba77b92aa522fccd1cbced93c69bea149705fa2b368b12c
     name: talos
@@ -53,7 +53,7 @@ entries:
       cluster.x-k8s.io/v1beta1: v1beta1
     apiVersion: v2
     appVersion: 1.4.2
-    created: "2025-04-29T13:52:13.609005896+05:30"
+    created: "2025-04-29T13:55:41.558925335+05:30"
     description: A Helm chart for talos
     digest: 4a05a854d63861eede4a3622c1876dafc2734f3142887029aa7ca3a18229bd75
     name: talos
@@ -66,7 +66,7 @@ entries:
       cluster.x-k8s.io/v1beta1: v1beta1
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-04-29T13:52:13.608647884+05:30"
+    created: "2025-04-29T13:55:41.558629414+05:30"
     description: A Helm chart for talos
     digest: 8dc6cd6f6fd5cef4eeeb5612c7dfa9d8fb56a2440c3d7fae2fc484b99601c66d
     name: talos
@@ -74,4 +74,4 @@ entries:
     urls:
     - https://shivani446.github.io/helm-charts/charts/talos-0.1.0.tgz
     version: 0.1.0
-generated: "2025-04-29T13:52:13.604508749+05:30"
+generated: "2025-04-29T13:55:41.556298992+05:30"
