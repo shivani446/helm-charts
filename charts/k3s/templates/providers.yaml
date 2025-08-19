@@ -1,0 +1,27 @@
+apiVersion: operator.cluster.x-k8s.io/v1alpha2
+kind: BootstrapProvider
+metadata:
+  name: k3s
+spec:
+  version: v0.3.0
+  fetchConfig:
+    url: https://github.com/k3s-io/cluster-api-k3s/releases/v0.3.0/bootstrap-components.yaml
+  {{- if .Values.configSecret.name }}
+  configSecret:
+    name: {{ .Values.configSecret.name }}
+    namespace: {{ .Values.configSecret.namespace | default .Release.Namespace | trunc 63 }}
+  {{- end }}
+---
+apiVersion: operator.cluster.x-k8s.io/v1alpha2
+kind: ControlPlaneProvider
+metadata:
+  name: k3s
+spec:
+  version: v0.3.0
+  fetchConfig:
+    url: https://github.com/k3s-io/cluster-api-k3s/releases/v0.3.0/control-plane-components.yaml
+  {{- if .Values.configSecret.name }}
+  configSecret:
+    name: {{ .Values.configSecret.name }}
+    namespace: {{ .Values.configSecret.namespace | default .Release.Namespace | trunc 63 }}
+  {{- end }}
