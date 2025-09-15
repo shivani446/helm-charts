@@ -3,7 +3,7 @@ kind: InfrastructureProvider
 metadata:
   name: proxmox
 spec:
-  version: v0.6.0
+  version: v0.6.1
   {{- if .Values.configSecret.name }}
   configSecret:
     name: {{ .Values.configSecret.name }}
